@@ -1,0 +1,29 @@
+{
+  "name": "home-editor-2d",
+  "version": "1.0.59",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -d",
+    "gulp": "gulp"
+  },
+  "keywords": [
+    "pixi"
+  ],
+  "author": "wangdong",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/pixi.js": "4.7.0",
+    "browserify": "^16.1.1",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "tsify": "^3.0.4",
+    "typescript": "^2.7.2",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
+  },
+  "dependencies": {
+    "pixi.js": "4.7.0"
+  }
+}

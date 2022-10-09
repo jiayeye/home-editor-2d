@@ -1,0 +1,19 @@
+import { StateManagerInterface } from "./StateInterface";
+import AppInterface from "../app/AppInterface";
+import { SelectEnum } from '../common/Graph';
+import { RegionDeleteCallBack } from '../graph/GraphInterface';
+export default class StateManager implements StateManagerInterface {
+    private _app;
+    private _editEnum;
+    private _selectEnum;
+    private _isEnableEraser;
+    private _selectIndex;
+    private _currentState;
+    private _isEnableRegionDelete;
+    constructor(app: AppInterface);
+    private _activeState;
+    enableEdit(isEnabled: boolean): void;
+    enableEraser(isEnabled: boolean): void;
+    select(state: SelectEnum, index: Array<number>): void;
+    enableRegionDelete(isEnabled: boolean, callBack?: RegionDeleteCallBack): void;
+}
