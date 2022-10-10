@@ -1,9 +1,7 @@
 "use strict";
 /*
- * @Author: xujiawen
  * @Description: 实现撤销重做
  * @Date: 2018-04-26 10:53:51
- * @Last Modified by: xujiawen
  * @Last Modified time: 2018-04-26 10:54:31
  */
 Object.defineProperty(exports, "__esModule", { value: true });

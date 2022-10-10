@@ -1,10 +1,6 @@
 "use strict";
 /*
- * @Author: xujiawen
  * @Description: 编辑层
- * @Date: 2018-04-26 11:02:08
- * @Last Modified by: xujiawen
- * @Last Modified time: 2018-04-28 17:48:08
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var Graph_1 = require("../common/Graph");

@@ -1,10 +1,6 @@
 "use strict";
 /*
- * @Author: xujiawen
  * @Description: 画块、边、点
- * @Date: 2018-04-26 11:02:55
- * @Last Modified by:   xujiawen
- * @Last Modified time: 2018-04-26 11:02:55
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var Graph_1 = require("../common/Graph");

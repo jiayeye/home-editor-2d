@@ -1,10 +1,6 @@
 "use strict";
 /*
- * @Author: xujiawen
  * @Description: 橡皮擦
- * @Date: 2018-04-26 11:00:54
- * @Last Modified by:   xujiawen
- * @Last Modified time: 2018-04-26 11:00:54
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var Eraser = /** @class */ (function () {
