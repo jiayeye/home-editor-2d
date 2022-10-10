@@ -15,6 +15,8 @@ $(function () {
 
     //放大缩小居中
     let dom = $("#operation");
+    // 默认居中
+    app.operationManager.justify()
     $(dom.find("span")[0]).click(function () {
         app.operationManager.zoomIn(1.5)
     })
